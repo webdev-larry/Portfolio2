@@ -154,10 +154,12 @@
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 79% 85%, 0 100%);
                         }
                         .services{
-                            padding: 10rem;
+                           padding: 10rem;
                            background: rgb(17, 17, 17);
                            padding-bottom: 2rem;
                            padding-top: 2rem;
+                           padding-left: 5rem;
+                           padding-right: 1rem;
                              }
                              section.services .card-grid .card{
                                 background: var(--white);
