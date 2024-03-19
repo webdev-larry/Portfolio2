@@ -40,7 +40,9 @@ body{
         font-size: 10px;
     }
     .navbar h1{
-        font-size: 50px;
+        color: #f9fcf7;
+        font-size: 4rem;
+        margin-top: 6rem;
     
     }
     .logo-icon{
@@ -80,31 +82,14 @@ body{
     .navbar .toggle-btn{
         display: none;
         cursor: pointer;
-        font-size: xx-large;
-        margin-right: 10px;
-        margin-top: 2px;
+        font-size:4rem;
+        margin-right: 40px;
+        margin-top: 4rem;
+        color: #f9fcf7;
     }
     
-    .search-bar{
-        border-radius: 25px;
-        border-right: 0;
-        padding: 1px;
-        font-size: 17px;
-        border: 0;
-        background: transparent;
-        font-family: 'Courier New', Courier, monospace;
     
-    }
-    .search-bar:focus{
-        border: 0;
-        border-color: white;
-        border-radius: 35px;
-        box-shadow: none;
-        outline: none;
-    
-    
-    }
-    
+
     
     .dropdown-link{
         position: absolute;
@@ -148,46 +133,7 @@ body{
     
     
     
-    .search{
-        display: flex;
-        height: 40px;
-    }
-    .search-icon{
-        
-        cursor: pointer;
-        border-radius: 6px;
-        margin-right: 10px;
-        border: none;
-        float: left;
-        width: 20%;
-        padding: 5px;
-        font-size: 17px;
-        cursor: pointer;
-        color: black;
-        background-color: transparent;
-    }
-    .cart{
-        cursor: pointer;
-    }
-    .search-1{
-        display: flex;
-        background-color: aliceblue;
-        border-radius: 20px;
-    
-    }
-    .cart-pro{
-        display: flex;
-        margin-top: 15px;
-        justify-content: space-between;
-        margin-left: 18px;
-        font-size: xx-large;
-        align-items: center;
-        margin-bottom: 10px;
-    
-    }
-    .cart{
-        margin-right: 15px;
-    }
+
 
     body{
         font-family: 'Poppins', sans-serif;
