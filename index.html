@@ -16,26 +16,50 @@ rel="stylesheet">
 <title>Portfolio</title>
 </head>
 <body>  
-    <header>  
-      <div class="container">  
-        <nav class="flex items-centre justify-between">  
-            <div class="left flex justfiy-right">  
-            <div class="logo">  
-              <img src="./images/logo.jpeg" width="50px" alt="logo">  
-            </div>  
-            <div>  
-              <a href="#">Home</a>  
-              <a href="#">About</a>  
-              <a href="#">Services</a>  
-              <a href="#">Blog</a></li>  
-              <a href="#">More</a>  
-            </div>  
-          </div>  
-          <div class="right">  
-            <button class="btn btn-primary">Contact</button>  
-          </div>  
-        </nav>
-      </div>  
+  <header>
+    <div class="navbar">
+        <div class="logo-icon">
+        <h1>X</h1>
+        </div>
+        
+            <ul class="list">
+                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-house"></i><a href="">HOME</a></li>
+                <li style="display: flex; justify-content: center;align-items: end; ">  <i  style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-book"></i><a href="">STORIES</a></li>
+                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;"  class="fa-solid fa-user fa-fade"></i> <a href="/signup.html"> SIGN UP/SIGN IN</a></li>
+                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px;
+                margin-bottom: 5px;" class="fa-solid fa-address-book "></i>
+                    <a href="">CONTACT US</a></li>
+            </ul>
+            
+        
+        <div class="search">
+            <div class="search-1">
+                <input  class="search-bar" type="text" id="myInput" onkeyup="search()" placeholder="Search..."  >
+                <button class="search-icon"  type="submit"><i class="fa fa-search"></i></button>
+
+            </div>
+            <div class="cart-pro">
+                <div class="cart"><i  class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+
+            
+        </div>
+        <div class="toggle-btn">
+            <i  onclick="toggle()"class="fa-solid  fa-bars "></i>
+        </div>
+
+
+    </div>
+    <div id="dropdown" class="dropdown-link">
+        <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-house"></i><a href="">HOME</a></li>
+        <li style="display: flex; justify-content: center;align-items: end; ">  <i  style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-book"></i><a href="">STORIES</a></li>
+        <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;"  class="fa-solid fa-user fa-fade"></i> <a href="/signup.html"> SIGN UP</a></li>
+        <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px;
+        margin-bottom: 5px;" class="fa-solid fa-address-book "></i>
+            <a href="">CONTACT US</a></li>
+    </div>
+
+   
     </header>
 
 
@@ -114,8 +138,7 @@ rel="stylesheet">
                     <div class="card-grid">
                     <div class="card card1">
                     
-                    <h2>Technical Writer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, debitis?</p>
+                    <a href="https://larrytech123.github.io/PROJECT-X/ " target="_blank"><img src="./images/mariam.jpg" alt=""></a>
                     </div>
                     <div class="card card2">
                     

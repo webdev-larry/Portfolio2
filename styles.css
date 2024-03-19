@@ -8,38 +8,186 @@
 --text: #090f06;
 }
 
-
+body{
+    
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
+    
     }
     header{
-        position: fixed;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        position: relative;
+        font-size: bold;
+        padding: 30px 0 30px;
+       
+    }
+    .navbar{
+        display: flex;
+        max-width: 1550px;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
         width: 100%;
-    background-color: var(--text);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 79% 85%, 0 100%);
+        font-size: bold;
+        margin-top: 15px;
+        font-size: 10px;
     }
-    header nav .left a{
-    color: var(--white);
-    text-decoration: none;
-    margin-right: 2rem;
-    text-transform: uppercase;
-    transition: all .2s ease;
+    .navbar h1{
+        font-size: 50px;
+    
     }
-    header nav .left a:hover{
-    color: var(--primary);
-    text-decoration: underline;
+    .logo-icon{
+    
+        display: flex;
+        align-items: center;
+        padding-left: 23px;
+        
     }
-    header nav {
-    padding: 1rem 0;
+    .logo-icon img {
+        height: 80px;
     }
-    header nav .logo{
-    margin-right: 3rem;
+     ul {
+        display: flex;
+        margin-left: 0px;
     }
-
+     ul li{
+        list-style: none;
+        margin-left: 60px;
+        
+      
+    }
+     .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: bold;
+        font-size: large;
+        
+        
+        
+    }
+     ul li a:hover{
+        text-decoration: underline;
+        transition: all 2s ease-in-out;
+    }
+    .navbar .toggle-btn{
+        display: none;
+        cursor: pointer;
+        font-size: xx-large;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    
+    .search-bar{
+        border-radius: 25px;
+        border-right: 0;
+        padding: 1px;
+        font-size: 17px;
+        border: 0;
+        background: transparent;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    .search-bar:focus{
+        border: 0;
+        border-color: white;
+        border-radius: 35px;
+        box-shadow: none;
+        outline: none;
+    
+    
+    }
+    
+    
+    .dropdown-link{
+        position: absolute;
+        height: 300px;
+        right: 4rem;
+        top: 150px;
+        width: 300px;
+        background-color: hsl(0 0% 100% / 0.1);
+        backdrop-filter:  blur(15px);
+        z-index: 999;
+        overflow: hidden;
+        display: none;
+        background: t;
+        border-radius: 10px;
+        align-items: right;
+        
+    } 
+    .dropdown-link li{
+        padding: 0.7rem;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        list-style: none;
+        color: var(--text);
+        font-size: large;
+    }
+    .dropdown-link li a{
+        text-decoration: none;
+        color: var(--text);
+        margin-top: 30px;
+        transition: all .7s ease-in-out;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .search{
+        display: flex;
+        height: 40px;
+    }
+    .search-icon{
+        
+        cursor: pointer;
+        border-radius: 6px;
+        margin-right: 10px;
+        border: none;
+        float: left;
+        width: 20%;
+        padding: 5px;
+        font-size: 17px;
+        cursor: pointer;
+        color: black;
+        background-color: transparent;
+    }
+    .cart{
+        cursor: pointer;
+    }
+    .search-1{
+        display: flex;
+        background-color: aliceblue;
+        border-radius: 20px;
+    
+    }
+    .cart-pro{
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        margin-left: 18px;
+        font-size: xx-large;
+        align-items: center;
+        margin-bottom: 10px;
+    
+    }
+    .cart{
+        margin-right: 15px;
+    }
 
     body{
         font-family: 'Poppins', sans-serif;
@@ -267,11 +415,7 @@
                         transition: all .2s ease;
                         }
                         section.projects .card-grid .card img{
-                        position: absolute;
-                        top: -1.5rem;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        color: var();
+                        
                         }
                         section.projects .card-grid .card h2{
                         font-weight: 600;

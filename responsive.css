@@ -169,5 +169,32 @@
                                 margin-bottom: 8px
                                 }
     }
+    @media (max-width: 992px){
+        body{
+            width: 100%;
+            overflow-x: hidden;
+            text-align: center;
+            
+        }
+        .navbar .list {
+            display: none;
+        }
+        .navbar .toggle-btn{
+            display: block;
+            margin-bottom: 10px;
     
+        }
+        .dropdown-link{
+            display: none;
+            background-color: hsl(0 0% 100% / 0.1);
+            backdrop-filter:  blur(25px);
+            z-index: 999;
+        }
+        .search{
+            display: flex;
+            height: 40px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    }    
 
