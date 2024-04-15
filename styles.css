@@ -26,6 +26,7 @@ body{
         position: relative;
         font-size: bold;
         padding: 30px 0 30px;
+        background-color: #090f06;
        
     }
     .navbar{
@@ -38,9 +39,10 @@ body{
         font-size: bold;
         margin-top: 15px;
         font-size: 10px;
+        background-color: #090f06;
     }
     .navbar h1{
-        color: #f9fcf7;
+        color: white;
         font-size: 4rem;
         margin-top: 6rem;
     
@@ -85,6 +87,9 @@ body{
         font-size:4rem;
         margin-right: 40px;
         margin-top: 4rem;
+        color: #f9fcf7;
+    }
+    ul li i {
         color: #f9fcf7;
     }
     
