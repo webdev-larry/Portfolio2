@@ -137,6 +137,7 @@
                         grid-column-gap: 4px;
                         grid-row-gap: 30px;
                         margin: 0;
+                        width: 500px;
                         }
                         
                         .card1 { grid-area: 1 / 1 / 2 / 2; }
@@ -158,8 +159,9 @@
                            background: rgb(17, 17, 17);
                            padding-bottom: 2rem;
                            padding-top: 2rem;
-                           padding-left: 5rem;
+                           padding-left: 2rem;
                            padding-right: 1rem;
+                           margin-left: 1rem;
                              }
                              section.services .card-grid .card{
                                 background: var(--white);
