@@ -5,6 +5,12 @@
         body{
             overflow-x: hidden;
         }
+        .navbar .toggle-btn{
+            display: block;
+            margin-bottom: 10px;
+            color: aliceblue;
+    
+        }
         .form-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -80,7 +86,7 @@
                                 
                                 text-align: center;
                                 transition: all .2s ease;
-                                margin-bottom: 8px;
+                                margin-bottom:1rem;
                                 width: 300px;
                                 
                                 }
@@ -90,7 +96,9 @@
     @media (max-width: 667px){
         body{
             overflow-x: hidden;
+            
         }
+       
         .form-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -123,6 +131,7 @@
                     grid-template-rows: repeat(2, 1fr);
                     grid-column-gap: 7px;
                     grid-row-gap: 4px;
+                    
                     }
                     
                     .left { grid-area: 1 / 1 / 2 / 2; }
@@ -136,8 +145,7 @@
                         grid-template-rows: repeat(3, 1fr);
                         grid-column-gap: 4px;
                         grid-row-gap: 30px;
-                        margin: 0;
-                        width: 500px;
+                       
                         }
                         
                         .card1 { grid-area: 1 / 1 / 2 / 2; }
@@ -184,7 +192,26 @@
         .navbar .toggle-btn{
             display: block;
             margin-bottom: 10px;
+            color: aliceblue;
     
+        }
+        .navbar .iconssmall {
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            font-size:3rem;
+            margin-left: 4rem;
+            
+            color: #f9fcf7;
+        }
+        .navbar .iconssmall i{
+            margin-left: 1rem;
+
+
         }
         .dropdown-link{
             display: none;

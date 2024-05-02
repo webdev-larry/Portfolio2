@@ -60,6 +60,8 @@ body{
      ul {
         display: flex;
         margin-left: 0px;
+        margin-right: 500px;
+        margin-top: 50px;
     }
      ul li{
         list-style: none;
@@ -81,11 +83,16 @@ body{
         text-decoration: underline;
         transition: all 2s ease-in-out;
     }
-    .navbar .toggle-btn{
+    .navbar .iconssmall {
+        text-decoration: none;
+        list-style: none;
         display: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         cursor: pointer;
         font-size:4rem;
-        margin-right: 40px;
+        margin-right: 1px;
         margin-top: 4rem;
         color: #f9fcf7;
     }
@@ -93,42 +100,6 @@ body{
         color: #f9fcf7;
     }
     
-    
-
-    
-    .dropdown-link{
-        position: absolute;
-        height: 300px;
-        right: 4rem;
-        top: 150px;
-        width: 300px;
-        background-color: hsl(0 0% 100% / 0.1);
-        backdrop-filter:  blur(15px);
-        z-index: 999;
-        overflow: hidden;
-        display: none;
-        background: t;
-        border-radius: 10px;
-        align-items: right;
-        
-    } 
-    .dropdown-link li{
-        padding: 0.7rem;
-        display: flex;
-        align-items: left;
-        justify-content: left;
-        text-align: left;
-        list-style: none;
-        color: var(--text);
-        font-size: large;
-    }
-    .dropdown-link li a{
-        text-decoration: none;
-        color: var(--text);
-        margin-top: 30px;
-        transition: all .7s ease-in-out;
-    
-    }
     
     
     
@@ -176,7 +147,7 @@ body{
         }
         .hero .right p{
         line-height: 1.9;
-        margin-bottom: 2rem;
+        margin-bottom: 2e3irem;
         color: black;
         }
 
