@@ -185,7 +185,9 @@
             overflow-x: hidden;
             text-align: center;
             
+
         }
+        
         .navbar .list {
             display: none;
         }
@@ -224,6 +226,9 @@
             height: 40px;
             margin-left: 10px;
             margin-bottom: 10px;
+        }
+        .navbar {
+            background-color: wh;
         }
     }    
 
