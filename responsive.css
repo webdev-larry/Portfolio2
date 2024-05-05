@@ -227,8 +227,21 @@
             margin-left: 10px;
             margin-bottom: 10px;
         }
-        .navbar {
-            background-color: wh;
+        .projects .container{
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+
+            
         }
+        section.projects .card-grid .card{
+            background: var(--white);
+            width: 500px;
+            transition: all .2s ease;
+            }
+            .projects{
+                padding: 1rem;
+                background:  var(--bglight)
+                }
     }    
 
