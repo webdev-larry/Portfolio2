@@ -41,12 +41,7 @@ body{
         font-size: 10px;
         background-color: #090f06;
     }
-    .navbar h1{
-        color: white;
-        font-size: 4rem;
-        margin-top: 6rem;
     
-    }
     .logo-icon{
     
         display: flex;
@@ -66,6 +61,7 @@ body{
      ul li{
         list-style: none;
         margin-left: 60px;
+        width: 170px;
         
       
     }
@@ -75,6 +71,7 @@ body{
         cursor: pointer;
         font-size: bold;
         font-size: large;
+        width: 150px;
         
         
         
@@ -100,17 +97,6 @@ body{
         color: #f9fcf7;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
     body{
         font-family: 'Poppins', sans-serif;
         }
