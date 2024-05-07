@@ -57,6 +57,7 @@ body{
         margin-left: 0px;
         margin-right: 500px;
         margin-top: 50px;
+        place-items: center;
     }
      ul li{
         list-style: none;
