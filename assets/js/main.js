@@ -28,39 +28,36 @@ function changeIcon() {
   }
 }
 
-// Downloading Resume
-// document.getElementsByClassName("btn btn--primary").addEventListener("click", function() {
-//   window.location.href = "../../assets/Calvin Mwangi.pdf"
-// })
+
 
 
 // Testimonial Slide
 
-const testimonialSlide = new Swiper(".testimonial__wrapper", {
-  loop: true,
-  spaceBetween: 30,
-  centeredSlides: true,
-  effect: "coverflow",
-  grabCursor: true,
-  slidesPerView: 1,
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+// const testimonialSlide = new Swiper(".testimonial__wrapper", {
+//   loop: true,
+//   spaceBetween: 30,
+//   centeredSlides: true,
+//   effect: "coverflow",
+//   grabCursor: true,
+//   slidesPerView: 1,
+//   coverflowEffect: {
+//     rotate: 50,
+//     stretch: 0,
+//     depth: 100,
+//     modifier: 1,
+//     slideShadows: true,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
 
-  breakpoints: {
-    520: {
-      slidesPerView: "auto",
-    },
-  },
-});
+//   breakpoints: {
+//     520: {
+//       slidesPerView: "auto",
+//     },
+//   },
+// });
 
 // header scroll animation
 window.addEventListener("scroll", () => {
