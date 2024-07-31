@@ -1,192 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
-rel="stylesheet">
-<link rel="stylesheet" href="responsive.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulraman Quamdeen</title>
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
-<body>  
-  <header>
-    <div class="navbar">
 
-        
-        <ul class="list">
+<body>
 
-                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-house"></i><a href="#home">HOME</a></li>
-                <li style="display: flex; justify-content: center;align-items: end; ">  <i  style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-address-card "></i><a href="#about">About</a></li>
-                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px; margin-bottom: 5px;"  class="fa-solid fa-building-user"></i> <a href="#project">Projects</a></li>
-                <li style="display: flex; justify-content: center;align-items: end; "> <i style="margin-right: 10px;margin-bottom: 5px;" class="fa-solid fa-inbox"></i><a href="#contact">CONTACT</a></li>
-             </ul>
-
-
-            
-    
-
-            <div class="iconssmall">
-            <li> <a  style="color: aliceblue;" href="#home"> <i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-house"></i></a></li>
-            <li><a  style="color: aliceblue;"  href="#about"><i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-address-card "></i></a></li>
-            <li> <a style="color: aliceblue;"  href="#project"><i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-building-user"></i></a></li>
-            <li> <a  style="color: aliceblue;" href="#contact"><i style="margin-right: 10px; margin-bottom: 5px;" class="fa-solid fa-inbox"></i></a></li>
-            </div>
-
-    </div>
-
-</header>
-
-   
-
-
-
-    <div class="hero flex items-centre justify-between" id="home">
-        <div class="left flex-1 justify-center">
-        <img src="./images/IMG_5190.JPG" alt="Profile">
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Dev<Span>Larry</Span>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">Qualification</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact"  class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
         </div>
-        <div class="right flex-1">
-        <h6>Abdulraman Quamdeen</h6>
-        <h1>I'm a <br> <span id="element" class="element"></span></h1>
-        <p>And a  passionate 
-            front-end developer specializing in transiting
-             design concept into services and interactive 
-             web experiences using HTML,CSS and JavaScript.</p>
-        <div>
-            <button class="btn btn-secondary"><a style="color:#6dc041;" href="QUAM RESUME.pdf">RESUME</a></button>
-        </div>
-        </div>
-        </div>
-
-
-        <section class="about"  id="about">
-            <div class="container flex items-centre">
-            <div class="left flex-1 justify-right">
-            <img src="./images/IMG_5190.JPG" height="400px" alt="profile pic">
-            </div>
-            <div class="right flex-1">
-            <h1>About <span>Me</span></h1>
-            <h3>Hello! I'm Abdulraman Quamdeen.</h3>
-            <p>The resume contain every thing you need to know about Quamdeen's biography school details 
-                As a dedicated and reliable web developer, I thrive in dynamic
-                 and fast-paced environments. My commitment to excellence is reflected in my ability to deliver high-quality solutions even under tight deadlines and challenging circumstances. With a strong work ethic and a passion for web development, I consistently seek innovative approaches to problem-solving. My proficiency in adapting to evolving technologies and my unwavering focus on delivering results make me a valuable asset in any project. I am committed to producing exceptional web solutions while demonstrating resilience 
-                and efficiency in high-pressure situations.
-            </p>
-          
-            <button class="btn btn-secondary"><a style="color:#6dc041;" href="QUAM RESUME.pdf">RESUME</a></button>
-            </div>
-            </div>
-            </section>
-
-
-
-            <section class="services">
-                <div class="container">
-                <h1 class="services-head">Services</h1>
-                <p>All your digital needs... covered.</p>
-                <div class="card-grid">
-                <div class="card card1">
-                  <i class="fa-regular fa-pen-to-square"></i>
-                <h2>PENTESTER</h2>
-                <p>
-                    A pentester can identify and mitigate security vulnerabilities within a company's digital infrastructure, protecting 
-                    sensitive data and preventing potential breaches. By conducting thorough security assessments and penetration tests, they help 
-                    strengthen the company's defenses against
-                     cyber attacks, ensuring regulatory compliance and safeguarding its reputation and financial assets.</p>
-                </div>
-                <div class="card card2">
-                <i class="fa-solid fa-code"></i>
-                <h2>FULL-STACK WEB DEVELOPMENT</h2>
-                <p>A web developer can significantly enhance a company's online presence, driving increased traffic and user
-                     engagement through effective website design and optimization. By creating user-friendly interfaces and implementing 
-                     efficient backend systems, they can improve customer satisfaction and
-                     streamline business processes, ultimately boosting the company's revenue and growth potential.</p>
-                </div>
-                <div class="card card3">
-                <i class="fa-solid fa-chalkboard-user"></i>
-                <h2>TECNICAL WRITER</h2>
-                <p>
-                    A technical writer can simplify complex technical information, making it accessible to a wider audience, thereby enhancing user understanding and experience. 
-                    By creating clear and concise documentation, manuals, and guides, they can streamline processes, reduce support costs, and increase user satisfaction.
-                     Their work ensures that valuable knowledge is effectively communicated, benefiting both the company and its customers.
-                    </p>
-                </div>
-                </div>
-                </div>
-                </section>
-
-
-
-                <section class="projects"    id="project">
-                    <div class="container">
-                    <h1 class="projects-head">PROJECTS</h1>
-                    <div></div>
-
-                    
-                    <div class="card-grid">
-                    <div class="card card1">
-                        <h2>X AUDIO STORY</h2>
-                        <p>Explore the world of literature on our website, where we offer engaging stories and reviews on a variety of books. Dive into your favorite reads anytime, anywhere, with our audio versions of these stories, providing convenience and accessibility to book lovers on the go. Immerse yourself in the captivating narratives, 
-                            whether through reading or listening, and discover the magic of storytelling!</p>
-                    <a href="https://larrytech123.github.io/PROJECT-X/ " target="_blank"><img height="300px" src="./images/xproject.JPG" alt=""></a>
-                    </div>
-                    <div class="card card2">
-                    
-                    <h2>WEB AUTHORITY</h2>
-                    <p> Our website serves as the ultimate tech community hub, facilitating meetups, discussions, and networking among tech enthusiasts worldwide. Additionally, we offer an online marketplace where members can buy, sell, and exchange the latest tech gadgets, fostering innovation and connectivity within the community. 
-                        Join us to stay updated, connected, and equipped with the latest in tech!</p>
-                    <a href="# " target="_blank"><img height="300px" width="400px" src="./images/meetup.JPG" alt=""></a>
-                    </div>
-                    <div class="card card3">
-                    
-                    <h2>CHAT API</h2>
-                    <p>Makes life easier</p>
-                    </div>
-                    
-                    </div>
-                    </section>
-
-
-
-                    <section class="secc"  id="contact">
-                        <div class="contact" >
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7mxQuH7l91QfUB4YvkUFH1nwxK_k1OksWtlMGREjsjk0BUA/viewform?embedded=true" width="250" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+    </header>
+    <!--=================== main ====================-->
+    <main class="main">
+        <!--=================== Hero ====================-->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Hi, I am Quamdeen,<br>Software  Developer.</h1>
+                        <p class="hero__description">I'm a driven and dedicated software developer with a passion for crating efficient and effective solutions.
+                            I strive to deliver high-quality and user-friendly software that meets the needs of clients and end-users. Let's work together to bring your next project to life.
+                        </p>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">03+</p>
+                                <h2 class="hero__info-title">Years<br>Experience</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">10+</p>
+                                <h2 class="hero__info-title">Projects<br>Completed</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">03</p>
+                                <h2 class="hero__info-title">Companies<br> Worked</h2>
+                            </div>
                         </div>
+                    </div>
+                    <img src="assets/img/IMG_5190.JPG" alt="Larry" class="hero__img">
+                </div>
+            </div>
+        </section>
 
-                    </section>
+        <!--=================== About ====================-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">I'm a Professional and Experienced Software Developer.</h3>
+                        <p class="about__description">I have  a strong focus on creating intuitive and efficient software solutions to meet the needs of clients and end-users.
+                            When I'm not coding, I love to stay up-to-date with the latest technology trends and imporiving my skills.
+                            I'm always eager to take new challenges and work with a team to deliver exceptional results.
+                        </p>
+                        <a href="#project" class="btn btn--primary">Know More</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Technologies I've been working with:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Backend</h4>
+                                <ul class="skills__list">
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Python</li> -->
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        PHP</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Laravel</li>
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Firebase</li> -->
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MongoDB</li> -->
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        React</li>
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Vue.js</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <footer>
-                        
-                          © 2023 Web-dev larry - All rights reserved
-                        
-                    </footer>
-                    
+        <!--=================== Qualification ====================-->
+        <section id="qualification" class="section qualification">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Qualification</h2>
+                    <span class="section__subtitle">Experience & Education</span>
+                </div>
+                <!--============== Professional Experience ============-->
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-briefcase-fill"></i>
+                        Professional Experience
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <!-- Experience 1-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Freelance software Developer</h3>
+                            <p class="qualification__description">As a freelance software developer, I am passionate about creating innovative and effective software solutions thats meet the unique needs of my clients.
+                                Whether it's building a custom web application or automating business processes, I bring expertise and creativity to every project, 
+                                and I am always looking for new and challenging projects to tackle.
+                            </p>
+                            <span class="qualification__date">2021 - Present</span>
+                        </div>
+                        <!-- Experience 2-->
+                        <!-- <div class="qualification__item">
+                            <h3 class="qualification__title">Full Stack Developer</h3>
+                            <p class="qualification__description">Lorem ipsum dolor sit amet consectetur.
+                                Facilisi vitae bibendum praesent sodales
+                                urna vel molestie neque augue.</p>
+                            <span class="qualification__date">2022 - 2023</span>
+                        </div> -->
+                        <!-- Experience 3-->
+                        <!-- <div class="qualification__item">
+                            <h3 class="qualification__title">UI/UX Designer at Pinterest</h3>
+                            <p class="qualification__description">Lorem ipsum dolor sit amet consectetur.
+                                Facilisi vitae bibendum praesent sodales
+                                urna vel molestie neque augue.</p>
+                            <span class="qualification__date">2017 - 2019</span>
+                        </div> -->
+                    </div>
+                </div>
+                <!--============== Education ============-->
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-booklet-fill"></i>
+                        Education
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <!-- Education 1-->
+                        <!-- <div class="qualification__item">
+                            <h3 class="qualification__title">Computer Science</h3>
+                            <p class="qualification__description">As a computer science student, I have a strong foundation in algorithms, data structures, software design and Development.
+                                My coursework has provided me with a deep understanding of the principles and practices of computer science,
+                                and I have honed my programming skills through various projects and assignments.
+                            </p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div> -->
+                        <!-- Education 2-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Full Stack Developer</h3>
+                            <p class="qualification__description">I'm was in the LIS software developer training program, 
+                                where I'm gaining hands-on experience in developing and designing software solutions. 
+                                This intensive training provides me with a solid foundation in software development , 
+                                learning the fundamentals of software development and building projects using PHP, Laravel MySQL.
+                            </p>
+                            <span class="qualification__date">2022 - 2023</span>
+                        </div>
+                        <!-- Education 3-->
+                        <!-- <div class="qualification__item">
+                            <h3 class="qualification__title">Software Engineer</h3>
+                            <p class="qualification__description">Lorem ipsum dolor sit amet consectetur.
+                                Facilisi vitae bibendum praesent sodales
+                                urna vel molestie neque augue.</p>
+                            <span class="qualification__date">2010 - 2014</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="qualification__footer">
+                    <p class="qualification__footer-text">See my full resume</p>
+                    <a href="./assets/Abdulraman Quamdeen .pdf" download class="btn btn--primary">Resume</a>
+                </div>
+            </div>
+        </section>
 
+        <!--=================== services ====================-->
+        <section id="service" class="section service">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Services</h2>
+                    <span class="section__subtitle">What I do</span>
+                </div>
+                <div class="d-grid service__wrapper">
+                    <!--========= service card 1 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-layout-4-fill"></i>
+                        </div>
+                        <h3 class="service__title">Frontend<br>Development</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                    <!--========= service card 2 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <h3 class="service__title">Backend<br> Development</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                    <!--========= service card 3 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <h3 class="service__title">Full-Stack Web-development Tutor<br> Design</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!--=================== Projects ====================-->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">My recent work</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                    <!--============== project 1 =============-->
+                    <div class="project__content">
+                        <img src="assets/img/meetupfr.JPG" alt="E-meetup Website" class="project__img">
+                        <h3 class="project__title">On-Going E-commerce Website</h3>
+                        <p class="project__description">E-commerce Website website is adaptable to all devices, with 
+                        ui components and animated interactions.</p>
+                        <a href="#" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--============== project 2 =============-->
+                    <div class="project__content">
+                        <img src="assets/img/landing page.JPG" alt="Ecommerce Website " class="project__img">
+                        <h3 class="project__title">Website Landing Page</h3>
+                        <p class="project__description">virtual sim Landing page adaptable to all devices, 
+                        with ui components and animated interactions.</p>
+                        <a href="https://newriley.vercel.app/"  target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--============== project 3 =============-->
+                    <div class="project__content">
+                        <img src="assets/img/chatappp.JPG" alt="Chat Web-app" class="project__img">
+                        <h3 class="project__title">On-going Chat Web-app</h3>
+                        <p class="project__description">Website dashboard adaptable to all devices, 
+                        with ui components and animated interactions.</p>
+                        <a href="#" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!-- ============== project 4 ============= -->
+                    <div class="project__content">
+                        <img src="assets/img/audiooo.JPG" alt="Audio Story Application " class="project__img">
+                        <h3 class="project__title">Audio Story app</h3>
+                        <p class="project__description">Audio Story app responsive to all devices, 
+                        with ui components and smooth scroll.</p>
+                        <a href="https://webdev-larry.github.io/PROJECT-X/" target="_blank" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!--=================== Testimonials ====================-->
+        <!-- <section id="testimonial" class="section testimonial">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Testimonials</h2>
+                    <span class="section__subtitle">What my clients say</span>
+                </div>
+                <div class="testimonial__wrapper swiper">
+                    <div class="swiper-wrapper">
+                        <!--========= testimonial 1 ============ -->
+                        <!-- <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/testimonial1.jpg" alt="Natasha Smith" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">Natasha Smith</h3>
+                                <span class="testimonial__occupation">UI/UX Designer at Dribbble</span>
+                            </div>
+                        </div> -->
+                        <!--========= testimonial 2 ============ -->
+                        <!-- <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/testimonial2.jpg" alt="John Clarke" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">John Clarke</h3>
+                                <span class="testimonial__occupation">Web Developer at Facebook</span>
+                            </div>
+                        </div> -->
+                        <!--========= testimonial 3 ============ -->
+                        <!-- <div class="testimonial__card swiper-slide">
+                            <img src="assets/img/testimonial3.jpg" alt="Emily Walker" class="testimonial__img">
+                            <div class="testimonial__content">
+                                <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                                    tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                                <h3 class="testimonial__name">Emily Walker</h3>
+                                <span class="testimonial__occupation">Backend Developer at Google
+                                </span>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
 
-    
+        <!--=================== Contact ====================-->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="d-grid contact__wrapper">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Interested in working together? Let's talk</h2>
+                        <p class="contact__description">
+                            Ready to work together on your next software project? I'd love to hear from you! 
+                            Feel free to get in touch using the contact information below.
+                            Whether uou have a specific project in mind or just want to chat about your software development needs , I am here to help.
+                            I will respond to your message as quickly as possible and look forward to connecting with you soon.
+                        </p>
+                    </div>
+                    <div class="contact__btn">
+                        <a href="#contact" class="btn btn--secondary">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=================== footer ====================-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Follow Me</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="https://api.whatsapp.com/send?phone=2349121417646&text=Hello%2C%20how%20may%20I%20be%20of%20assistance%3F" target="_blank" class="footer__social-link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com/lary.qam" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <!-- <li class="footer__social-item">
+                            <a href="https://www.linkedin.com/in/calvin-munene-918761233/" target="_blank" class="footer__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li> -->
+                        <li class="footer__social-item">
+                            <a href="https://github.com/webdev-larry" target="_blank" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Email Me</h4>
+                    <a href="#" class="footer__contact">adeshinaquamdeen@gmail.com</a>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Call Me</h4>
+                    <a href="#" class="footer__contact">+(234)912 141 7646</a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2023 webdev-larry. All Rights Reserved</p>
+        </div>
+    </footer>
 
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-                <script>
-                    var typed = new Typed('.element', {
-                      strings: ['Full-stack Web Developer. ','Technical Writer.','<i>School</i> Tutor.','Pentester'],
-                      typeSpeed: 80,
-                      backSpeed: 80,
-                      loop:true
-                    });
-            
-            
-                  </script>
+    <!--=================== Main JS ====================-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
+
